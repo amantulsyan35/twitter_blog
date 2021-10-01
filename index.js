@@ -61,6 +61,7 @@ app.get('/api/c/categories', (req, res) => {
 app.get('/api/b/blogs', async (req, res) => {
   const blogs = await Blog.find({});
   res.send(blogs);
+  console.log(blogs);
 });
 
 //retreiving blog post by categories
