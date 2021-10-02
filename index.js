@@ -1,6 +1,7 @@
-require('dotenv').config();
 const express = require('express');
 const app = express();
+require('dotenv').config();
+
 const mongoose = require('mongoose');
 const Twitter = require('twitter');
 const { urlencoded } = require('express');
@@ -61,7 +62,6 @@ app.get('/api/c/categories', (req, res) => {
 app.get('/api/b/blogs', async (req, res) => {
   const blogs = await Blog.find({});
   res.send(blogs);
-  console.log(blogs);
 });
 
 //retreiving blog post by categories
