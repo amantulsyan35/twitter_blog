@@ -1,0 +1,23 @@
+.Home-heading {
+  text-align: center;
+}
+
+.Home-create {
+  border: 1px solid black;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+.Home-create a {
+  text-decoration: none;
+}
+.Home-blog {
+  border: 1px solid black;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+  max-height: 30%;
+}

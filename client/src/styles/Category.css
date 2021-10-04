@@ -1,0 +1,21 @@
+.Category-heading {
+  text-align: center;
+}
+.Category-tweet {
+  border: 1px solid black;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+.Category-tweet a {
+  margin-right: 1em;
+}
+.Category-blog {
+  border: 1px solid black;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
